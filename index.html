@@ -1,0 +1,42 @@
+<!--开始标签-->
+<html lang="en"><!--网页的语言，便于浏览器搜索-->
+  <head>
+    <!-- <meta> 标签位于 head 元素内部,用来描述一个HTML网页文档的属性-->
+    <meta charset="UTF-8"> <!--字符编码-->
+    <!--视口的初始宽度和缩放比例-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+    <style>
+      img {
+        width: 200px;
+        border-radius: 100px; /*边框虚线半径属性*/
+        float: left; /*浮动属性 在左侧显示*/
+        margin-right: 10px; /*图片右侧空出的距离*/
+      }
+       em {
+         color: red;
+         font-style: normal;
+      }
+
+      p.username {
+        /*class为username的paragraph字体为粗体*/
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <a href=""></a>
+      <!--src=source=图像路径 alt是图像无法加载时的替代文本-->
+    <img src="images/main.png" alt="An image of Amoreimmaginario" />
+    <!--Paragraph    添加class属性以分类-->
+    <p class="username">@Amoreimmaginario</p>
+    <!--<em>表示emphasis，在浏览器中以其他的字体显示，并且强调内容优先在浏览器中搜寻-->
+    <!--&;用于打出一些html不方便打出的字符-->
+    <p>This is <em>AmoreImag</em>! I'm learning &lt;HTML&gt; !</p>
+    <!--<a>代表Anchor 超链接-->
+    <a href="https://voimmamored.github.io/">About Me</a>
+    <a href="images/me.jpg">My Photo</a>
+    <a href="https://www.baidu.com">Baidu</a>
+    <a href="https://www.Google.com" target="_blank">Google</a> <!--target="_blank使得目标网页在新标签页被打开"-->
+  </body>
+<!--结束标签-->
