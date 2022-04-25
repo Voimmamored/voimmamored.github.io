@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://voimmamored.github.io/index.html</loc>
+    
+    <lastmod>2022-04-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://voimmamored.github.io/2022/04/18/Real_life_feeling/2022/CreantionProcessOfMyBlog/CreationProcessOfMyBlog_4/</loc>
     
     <lastmod>2022-04-25</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://voimmamored.github.io/2022/04/21/Math_and_Natural_Science/Math/Linear%20Algebra/Essence%20Of%20Linear%20Algebra%20-%203Blue1Brown/Note/</loc>
     
     <lastmod>2022-04-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://voimmamored.github.io/index.html</loc>
-    
-    <lastmod>2022-04-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
