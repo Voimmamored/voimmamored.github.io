@@ -4,7 +4,7 @@
   --card-bg-color: #555;
   --text-color: #e4ecfa;
   --blockquote-color: #bbb;
-  --link-color: #6e7688;
+  --link-color: #728aa5;
   --link-hover-color: #eee;
   --brand-color: #e4ecfa;
   --brand-hover-color: #e4ecfa;
@@ -25,7 +25,7 @@
     --card-bg-color: #555;
     --text-color: #e4ecfa;
     --blockquote-color: #bbb;
-    --link-color: #6e7688;
+    --link-color: #728aa5;
     --link-hover-color: #eee;
     --brand-color: #e4ecfa;
     --brand-hover-color: #e4ecfa;
@@ -444,7 +444,7 @@ code {
   font-family: consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
 }
 code {
-  background: #000;
+  background: #555;
   border-radius: 3px;
   color: #fff;
   padding: 2px 4px;
@@ -1218,7 +1218,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffff9a;
+  background: #462949;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2011,6 +2011,13 @@ pre .javascript .function {
 }
 #qr p {
   text-align: center;
+}
+.post-copyright {
+  background: var(--card-bg-color);
+  border-left: 3px solid #ff2a2a;
+  list-style: none;
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
 }
 .category-all-page .category-all-title {
   text-align: center;

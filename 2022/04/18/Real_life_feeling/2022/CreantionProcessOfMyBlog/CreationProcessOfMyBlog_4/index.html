@@ -33,7 +33,7 @@
 <meta property="og:image" content="https://voimmamored.github.io/2022/04/18/Real_life_feeling/2022/CreantionProcessOfMyBlog/CreationProcessOfMyBlog_4/01.png">
 <meta property="article:published_time" content="2022-04-18T04:34:20.000Z">
 <meta property="article:modified_time" content="2022-04-25T00:37:52.074Z">
-<meta property="article:author" content="Voimammored">
+<meta property="article:author" content="Voimmamored">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://voimmamored.github.io/2022/04/18/Real_life_feeling/2022/CreantionProcessOfMyBlog/CreationProcessOfMyBlog_4/01.png">
 
@@ -132,11 +132,6 @@
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
-        <li class="menu-item menu-item-sitemap">
-
-    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a>
-
-  </li>
   </ul>
 </nav>
 
@@ -169,7 +164,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Voimammored">
+      <meta itemprop="name" content="Voimmamored">
       <meta itemprop="description" content="">
     </span>
 
@@ -211,7 +206,7 @@
       
         <p>经过前几篇文章的调整，显示文章已经基本没有问题了。本篇文章主要记录一下博客界面的美化过程。</p>
 <h1 id="字体">字体</h1>
-<p>NexT主题在<strong>主题配置文件</strong>中为我们提供了一部分可以自定义的内容，例如字体和字体大小等等。然而我想要调整的字体颜色却不在其中，网上也搜索不到相关的配置文件位置。<br />
+<p>NexT主题在<strong>主题配置文件</strong>中为我们提供了一部分可以自定义的内容，例如字体和字体大小等等。然而我想要调整的字体颜色却不在其中，网上也搜索不到相关的配置文件位置。<br>
 我翻了翻主题的文件，终于找到了字体配置所在的位置：</p>
 <blockquote>
 <p>next/source/css/_variables/base.styl</p>
@@ -219,7 +214,7 @@
 <p>其中可供修改的内容相当丰富，下面贴出我修改过的内容（注释是默认值）：
 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Global text color on &lt;body&gt;</span></span><br><span class="line"><span class="variable">$text</span>-<span class="attribute">color</span>                   = <span class="variable">$black</span>-light;</span><br><span class="line"><span class="comment">//$text-color-dark              = $grey-light;</span></span><br><span class="line"><span class="variable">$text</span>-<span class="attribute">color</span>-dark              = <span class="number">#E4ECFA</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Global link color.</span></span><br><span class="line"><span class="variable">$link</span>-<span class="attribute">color</span>                   = <span class="variable">$black</span>-light;</span><br><span class="line"><span class="comment">//$link-color-dark              = $grey-light;</span></span><br><span class="line"><span class="variable">$link</span>-<span class="attribute">color</span>-dark              = <span class="number">#728aa5</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Background color for &lt;body&gt;</span></span><br><span class="line"><span class="variable">$body</span>-bg-<span class="attribute">color</span>                = white;</span><br><span class="line"><span class="comment">//$body-bg-color-dark           = #282828;</span></span><br><span class="line"><span class="variable">$body</span>-bg-<span class="attribute">color</span>-dark           = <span class="number">#121621</span>;</span><br><span class="line"></span><br><span class="line"><span class="variable">$content</span>-bg-<span class="attribute">color</span>             = white;</span><br><span class="line"><span class="comment">//$content-bg-color-dark        = $black-dim;</span></span><br><span class="line"><span class="variable">$content</span>-bg-<span class="attribute">color</span>-dark        = <span class="number">#121621</span>;</span><br><span class="line"></span><br><span class="line"><span class="variable">$code</span>-<span class="attribute">font-family</span>               = <span class="variable">$font</span>-family-monospace;</span><br><span class="line"><span class="comment">//$code-foreground                = $black-light;</span></span><br><span class="line"><span class="variable">$code</span>-foreground                = white;</span><br><span class="line"></span><br><span class="line"><span class="comment">//$code-background                = $gainsboro;</span></span><br><span class="line"><span class="variable">$code</span>-<span class="attribute">background</span>                = black;</span><br><span class="line"></span><br><span class="line"><span class="comment">//$brand-color-dark               = $grey-lighter;</span></span><br><span class="line"><span class="comment">//$brand-hover-color-dark         = $grey-lighter;</span></span><br><span class="line"><span class="variable">$brand</span>-<span class="attribute">color</span>-dark               = <span class="number">#E4ECFA</span>;</span><br><span class="line"><span class="variable">$brand</span>-hover-<span class="attribute">color</span>-dark         = <span class="number">#E4ECFA</span>;</span><br></pre></td></tr></table></figure></p>
 <h1 id="darkmode修复">Darkmode修复</h1>
-<p>前面的文章提到过Darkmode在许多浏览器及移动端都是无效的。<br />
+<p>前面的文章提到过Darkmode在许多浏览器及移动端都是无效的。<br>
 一个简单粗暴的方法是打开色彩配置文件，把默认的配置行注释掉，再把Darkmode下的配置复制过来。</p>
 <p>色彩配置文件位置：</p>
 <blockquote>
@@ -234,7 +229,7 @@
 </blockquote>
 <p>插入代码<code>background:url(/images/sidebar_bg.png)</code>为侧边栏添加背景图片(Muse/Mist
 Scheme下的图片大小为320 × 800)。 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (<span class="built_in">hexo-config</span>(<span class="string">&#x27;sidebar.position&#x27;</span>) == <span class="string">&#x27;right&#x27;</span>) &#123;</span><br><span class="line">  <span class="selector-class">.sidebar</span> &#123;</span><br><span class="line">    </span><br><span class="line">    <span class="attribute">background</span>:url(/images/sidebar_bg.png);</span><br><span class="line"></span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span> - <span class="variable">$sidebar</span>-desktop;</span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.sidebar-active</span> &#123;</span><br><span class="line">      <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure></p>
-<p>最终效果： <img src="01.png" /></p>
+<p>最终效果： <img src="/2022/04/18/Real_life_feeling/2022/CreantionProcessOfMyBlog/CreationProcessOfMyBlog_4/01.png"></p>
 
     </div>
 
@@ -246,7 +241,7 @@ Scheme下的图片大小为320 × 800)。 <figure class="highlight stylus"><tabl
 <div>
 <ul class="post-copyright">
   <li class="post-copyright-author">
-    <strong>本文作者： </strong>Voimammored
+    <strong>本文作者： </strong>Voimmamored
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
@@ -267,12 +262,12 @@ Scheme下的图片大小为320 × 800)。 <figure class="highlight stylus"><tabl
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2022/04/10/Real_life_feeling/2022/CreantionProcessOfMyBlog/CreationProcessOfMyBlog_3/" rel="prev" title="Hexo + NexT博客搭建过程记录（三）—— 自定义博客主页">
-      <i class="fa fa-chevron-left"></i> Hexo + NexT博客搭建过程记录（三）—— 自定义博客主页
+    <a href="/2022/04/15/Math_and_Natural_Science/Math/Linear%20Algebra/MIT/Lec_12_%E5%9B%BE%E3%80%81%E7%BD%91%E6%A0%BC%E4%B8%8E%E5%85%B3%E8%81%94%E7%9F%A9%E9%98%B5/Note/" rel="prev" title="MIT-18.06-线性代数笔记（十二）—— 图、网格与关联矩阵">
+      <i class="fa fa-chevron-left"></i> MIT-18.06-线性代数笔记（十二）—— 图、网格与关联矩阵
     </a></div>
       <div class="post-nav-item">
-    <a href="/2022/04/21/Math_and_Natural_Science/Math/Linear%20Algebra/Essence%20Of%20Linear%20Algebra%20-%203Blue1Brown/Note/" rel="next" title="《线性代数的本质》课程中文笔记">
-      《线性代数的本质》课程中文笔记 <i class="fa fa-chevron-right"></i>
+    <a href="/2022/04/20/Math_and_Natural_Science/Math/Linear%20Algebra/MIT/Lec_13_%E5%A4%8D%E4%B9%A0%E4%B8%80/Note_13/" rel="next" title="MIT-18.06-线性代数笔记（十三）—— 复习一">
+      MIT-18.06-线性代数笔记（十三）—— 复习一 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -338,7 +333,7 @@ Scheme下的图片大小为320 × 800)。 <figure class="highlight stylus"><tabl
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">Voimammored</p>
+  <p class="site-author-name" itemprop="name">Voimmamored</p>
   <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap motion-element">
@@ -346,7 +341,7 @@ Scheme下的图片大小为320 × 800)。 <figure class="highlight stylus"><tabl
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">40</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -381,7 +376,7 @@ Scheme下的图片大小为320 × 800)。 <figure class="highlight stylus"><tabl
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Voimammored</span>
+  <span class="author" itemprop="copyrightHolder">Voimmamored</span>
 </div>
 
         
