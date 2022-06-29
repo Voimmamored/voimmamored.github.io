@@ -290,7 +290,7 @@ mjx-container[display="true"] + br {
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-06-28 21:18:38 / 修改时间：22:07:36" itemprop="dateCreated datePublished" datetime="2022-06-28T21:18:38+08:00">2022-06-28</time>
+              <time title="创建时间：2022-06-28 21:18:38 / 修改时间：22:19:24" itemprop="dateCreated datePublished" datetime="2022-06-28T21:18:38+08:00">2022-06-28</time>
             </span>
 
           
@@ -331,10 +331,13 @@ Hexo提供两种渲染方式：</p>
 选项设为
 <code>true</code>。之后在新建文章时会自动创建一个同名文件夹，把需要插入的图片放入该文件夹中再通过相对路径调用即可。</li>
 </ul>
-<p>但是新的问题出现了，假设我们的文件如下： &gt; note<br>
+<p>但是新的问题出现了，假设我们的文件如下：</p>
+<blockquote>
+<p>note<br>
 ├── 1.jpg<br>
 └── 2.jpg<br>
 note.md</p>
+</blockquote>
 <p>此时，我们需要使用<code>![](1.jpg)</code>的方式才能在博客中插入文件夹中的图片，但这样图片就不能在我们的编辑器中显示了。反之，如果使用<code>![](note/1.jpg)</code>的方式，图片就只能在编辑器中看到，而在博客中看不到。</p>
 <p>在过去的版本中，可以安装<code>hexo-asset-image</code>模块来解决这一问题，但随着Hexo版本的更新这一方法也早已失效。<br>
 取而代之的方法是新版本的<code>hexo-renderer-marked</code>模块，安装模块后在<code>config.yml</code>文件中调整设置：</p>
